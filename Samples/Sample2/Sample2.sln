@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "ConsoleApplicationSetup", "ConsoleApplicationSetup\ConsoleApplicationSetup.wixproj", "{D128A63E-592E-4FCA-80AA-FA8B96670365}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "MyCoolAppSetup", "MyCoolAppSetup\MyCoolAppSetup.wixproj", "{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs30
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConsoleApplication\\ConsoleApplication.csproj
+		SccProjectName1 = ConsoleApplication
+		SccLocalPath1 = ConsoleApplication
+		SccProjectUniqueName2 = ConsoleApplicationSetup\\ConsoleApplicationSetup.wixproj
+		SccProjectName2 = ConsoleApplicationSetup
+		SccLocalPath2 = ConsoleApplicationSetup
+		SccProjectUniqueName3 = MyCoolAppSetup\\MyCoolAppSetup.wixproj
+		SccProjectName3 = MyCoolAppSetup
+		SccLocalPath3 = MyCoolAppSetup
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6C3B4D53-7355-4393-845B-A6FA0ECAE8C9}.Release|x86.ActiveCfg = Release|Any CPU
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Debug|x86.ActiveCfg = Debug|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Debug|x86.Build.0 = Debug|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Release|Any CPU.ActiveCfg = Release|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Release|x86.ActiveCfg = Release|x86
+		{D128A63E-592E-4FCA-80AA-FA8B96670365}.Release|x86.Build.0 = Release|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Debug|x86.ActiveCfg = Debug|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Debug|x86.Build.0 = Debug|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Release|Any CPU.ActiveCfg = Release|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Release|x86.ActiveCfg = Release|x86
+		{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

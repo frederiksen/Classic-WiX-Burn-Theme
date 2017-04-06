@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="fr-fr" Language="1036" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">Installation de [WixBundleName]</String>
+  <String Id="Title">[WixBundleName]</String>
+  <String Id="ConfirmCancelMessage">Êtes-vous sûr de vouloir annuler ?</String>
+  <String Id="HelpHeader">Aide de l'installation</String>
+  <String Id="HelpText">
+    <![CDATA[/install | /repair | /uninstall | /layout [directory] - installe, répare, désinstalle ou
+    créé une copie locale complète du bundle dans le répertoire. Par défaut, lance l'installation.
+
+/passive | /quiet -  affiche une interface minimale sans invites ou n'affiche
+    aucune interface ni aucune invite. Par défaut, l'interface et toutes les
+    invites sont affichées.
+
+/norestart   - annule toute tentative de redémarrage. Par défaut, l'interface
+    affiche une invite avant de redémarrer.
+/log log.txt - consigne les entrées de journal dans un fichier spécifique.
+    Par défaut, un fichier journal est créé dans %TEMP%.]]>
+  </String>
+  <String Id="HelpCloseButton">&amp;Fermer</String>
+  <String Id="InstallAcceptCheckbox">J'&amp;accepte les termes de la licence et les conditions.</String>
+  <String Id="InstallOptionsButton">&amp;Options</String>
+  <String Id="InstallInstallButton">&amp;Installer</String>
+  <String Id="InstallCloseButton">&amp;Fermer</String>
+  <String Id="OptionsHeader">Options d'installation</String>
+  <String Id="OptionsLocationLabel">Emplacement de l'installation:</String>
+  <String Id="OptionsBrowseButton">&amp;Parcourir</String>
+  <String Id="OptionsOkButton">&amp;OK</String>
+  <String Id="OptionsCancelButton">&amp;Annuler</String>
+  <String Id="ProgressHeader">Progression de l'installation</String>
+  <String Id="ProgressLabel">Traitement en cours:</String>
+  <String Id="OverallProgressPackageText">Initialisation...</String>
+  <String Id="ProgressCancelButton">&amp;Annuler</String>
+  <String Id="ModifyHeader">Modifier l'installation</String>
+  <String Id="ModifyRepairButton">&amp;Réparer</String>
+  <String Id="ModifyUninstallButton">&amp;Désinstaller</String>
+  <String Id="ModifyCloseButton">&amp;Fermer</String>
+  <String Id="SuccessHeader">Installation réussie</String>
+  <String Id="SuccessLaunchButton">&amp;Lancer</String>
+  <String Id="SuccessRestartText">Vous devez redémarrer votre ordinateur avant de pouvoir utiliser le logiciel.</String>
+  <String Id="SuccessRestartButton">&amp;Redémarrer</String>
+  <String Id="SuccessCloseButton">&amp;Fermer</String>
+  <String Id="FailureHeader">L'installation a échoué</String>
+  <String Id="FailureHyperlinkLogText">L'installation a échoué pour une ou plusieurs raisons. Corrigez les problèmes et recommencez l'installation. Pour plus d'informations, consultez le &lt;a href="#"&gt;fichier journal&lt;/a&gt;.</String>
+  <String Id="FailureRestartText">Vous devez redémarrer votre ordinateur pour terminer la restauration du logiciel.</String>
+  <String Id="FailureRestartButton">&amp;Redémarrer</String>
+  <String Id="FailureCloseButton">&amp;Fermer</String>
+  <String Id="WillInstall">[WixBundleName] va être installé sur votre appareil</String>
+  <String Id="InstallLicenseLinkText">En installant, vous acceptez ces &lt;a href="#"&gt;termes de la licence&lt;/a&gt;</String>
+</WixLocalization>

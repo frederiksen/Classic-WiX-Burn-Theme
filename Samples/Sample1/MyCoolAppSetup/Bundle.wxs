@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+  <Bundle Name="MyCoolApp" Version="1.0.0.0" Manufacturer="mrtn" UpgradeCode="7f3a73ba-51f4-497d-a06f-ebfe9588a8f9">
+
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.HyperlinkLicense" >
+      <bal:WixStandardBootstrapperApplication
+        LogoFile="Resources/banner.png"
+        ThemeFile="Resources/ClassicTheme.xml"
+        LocalizationFile="Resources/ClassicTheme.wxl"
+        LicenseUrl="http://opensource.org/licenses/ms-rl" />
+    </BootstrapperApplicationRef>
+    
+		<Chain>
+			 <MsiPackage SourceFile="$(var.ConsoleApplicationSetup.TargetPath)" /> 
+		</Chain>
+	</Bundle>
+</Wix>

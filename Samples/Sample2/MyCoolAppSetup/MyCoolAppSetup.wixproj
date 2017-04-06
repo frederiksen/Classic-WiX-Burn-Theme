@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.8</ProductVersion>
+    <ProjectGuid>7f3a73ba-51f4-497d-a06f-ebfe9588a8f9</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>MyCoolAppSetup</OutputName>
+    <OutputType>Bundle</OutputType>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' AND '$(MSBuildExtensionsPath32)' != '' ">$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets</WixTargetsPath>
+    <WixTargetsPath Condition=" '$(WixTargetsPath)' == '' ">$(MSBuildExtensionsPath)\Microsoft\WiX\v3.x\Wix.targets</WixTargetsPath>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Bundle.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixBalExtension">
+      <HintPath>$(WixExtDir)\WixBalExtension.dll</HintPath>
+      <Name>WixBalExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleApplicationSetup\ConsoleApplicationSetup.wixproj">
+      <Name>ConsoleApplicationSetup</Name>
+      <Project>{d128a63e-592e-4fca-80aa-fa8b96670365}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources" />
+    <Folder Include="Resources\1030" />
+    <Folder Include="Resources\1033" />
+    <Folder Include="Resources\1036" />
+    <Folder Include="Resources\3082" />
+    <Folder Include="Resources\1049" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1030\ClassicTheme.wxl" />
+    <None Include="Resources\1033\ClassicTheme.wxl" />
+    <None Include="Resources\1036\ClassicTheme.wxl" />
+    <None Include="Resources\3082\ClassicTheme.wxl" />
+    <None Include="Resources\1049\ClassicTheme.wxl" />
+    <EmbeddedResource Include="Resources\ClassicTheme.wxl" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1030\ClassicTheme.xml" />
+    <None Include="Resources\1033\ClassicTheme.xml" />
+    <Content Include="Resources\1030\banner.png" />
+    <Content Include="Resources\1033\banner.png" />
+    <Content Include="Resources\1036\banner.png" />
+    <None Include="Resources\1036\ClassicTheme.xml" />
+    <Content Include="Resources\1049\banner.png" />
+    <Content Include="Resources\1049\ClassicTheme.xml" />
+    <Content Include="Resources\3082\banner.png" />
+    <None Include="Resources\3082\ClassicTheme.xml" />
+    <Content Include="Resources\banner.png" />
+    <Content Include="Resources\ClassicTheme.xml" />
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" />
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>
