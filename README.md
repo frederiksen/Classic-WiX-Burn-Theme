@@ -13,3 +13,6 @@ Sample 2: Use Classic WiX Burn Theme in an installer localized in English, Danis
 
 # Localizations
 English (1033), Danish (1030), Frensh (1036), Spanish (3082), Russian (1049), German (1031)
+
+# Help
+Help wanted to add more localizations.
