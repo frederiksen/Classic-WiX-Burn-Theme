@@ -10,21 +10,6 @@ EndProject
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "MyCoolAppSetup", "MyCoolAppSetup\MyCoolAppSetup.wixproj", "{7F3A73BA-51F4-497D-A06F-EBFE9588A8F9}"
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs30
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ConsoleApplication\\ConsoleApplication.csproj
-		SccProjectName1 = ConsoleApplication
-		SccLocalPath1 = ConsoleApplication
-		SccProjectUniqueName2 = ConsoleApplicationSetup\\ConsoleApplicationSetup.wixproj
-		SccProjectName2 = ConsoleApplicationSetup
-		SccLocalPath2 = ConsoleApplicationSetup
-		SccProjectUniqueName3 = MyCoolAppSetup\\MyCoolAppSetup.wixproj
-		SccProjectName3 = MyCoolAppSetup
-		SccLocalPath3 = MyCoolAppSetup
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
