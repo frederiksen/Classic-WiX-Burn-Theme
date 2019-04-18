@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WixLocalization Culture="de-de" Language="1031" xmlns="http://schemas.microsoft.com/wix/2006/localization"> 
+<WixLocalization Culture="de-DE" Language="1031" xmlns="http://schemas.microsoft.com/wix/2006/localization">
   <String Id="Caption">[WixBundleName] Setup</String>
   <String Id="Title">[WixBundleName]</String>
   <String Id="ConfirmCancelMessage">Sind Sie sicher, dass Sie abbrechen wollen?</String>
