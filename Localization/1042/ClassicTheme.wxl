@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="ko-kr" Language="1042" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+  <String Id="Caption">[WixBundleName] 설치</String>
+  <String Id="Title">[WixBundleName]</String>
+  <String Id="ConfirmCancelMessage"> 정말 취소 하시겠습니까?</String>
+  <String Id="HelpHeader"> 설치 도움말</String>
+  <String Id="HelpText">
+    /install | /repair | /uninstall | /layout [directory] - 설치, 복구, 삭제 및 지정 디렉토리에 전체 패키지 복사. (기본값 : install)
+
+    /passive | /quiet -  프롬프트나 UI 가 없는 간략한 UI 표시 (기본값 : 모든 UI 및 프롬프트 표시)
+    
+    /norestart   - 재시작 금지 (기본값 : 재시작 후 UI 표시)
+    
+    /log log.txt - 특정 파일로 로그 파일 생성 (기본값 : %TEMP%)
+  </String>
+  <String Id="HelpCloseButton">닫기</String>
+  <String Id="InstallAcceptCheckbox">동의합니다</String>
+  <String Id="InstallOptionsButton">옵션</String>
+  <String Id="InstallInstallButton">설치</String>
+  <String Id="InstallCloseButton">닫기</String>
+  <String Id="OptionsHeader">설치 옵션</String>
+  <String Id="OptionsLocationLabel">설치 위치</String>
+  <String Id="OptionsBrowseButton">위치 열기</String>
+  <String Id="OptionsOkButton">확인</String>
+  <String Id="OptionsCancelButton">취소</String>
+  <String Id="ProgressHeader">설치 진행 현황</String>
+  <String Id="ProgressLabel">진행중...</String>
+  <String Id="OverallProgressPackageText">초기화중</String>
+  <String Id="ProgressCancelButton">취소</String>
+  <String Id="ModifyHeader">수정</String>
+  <String Id="ModifyRepairButton">복구</String>
+  <String Id="ModifyUninstallButton">삭제</String>
+  <String Id="ModifyCloseButton">닫기</String>
+  <String Id="SuccessHeader">성공</String>
+  <String Id="SuccessLaunchButton">실행</String>
+  <String Id="SuccessRestartText">변경 사항 적용을 위해 컴퓨터를 재시작 해야 합니다.</String>
+  <String Id="SuccessRestartButton">재시작</String>
+  <String Id="SuccessCloseButton">닫기</String>
+  <String Id="FailureHeader">설치 실패</String>
+  <String Id="FailureHyperlinkLogText">하나 이상의 문제가 발생하여 설치가 실패하였습니다. 문제를 해결 후 설치를 다시 진행하세요. 자세한 사항은 아래 링크를 참고하세요 &lt;a href="#"&gt;log file&lt;/a&gt;</String>
+  <String Id="FailureRestartText">소프트웨어 복구를 위해 컴퓨터를 재시작 해야 합니다.</String>
+  <String Id="FailureRestartButton">재시작</String>
+  <String Id="FailureCloseButton">닫기</String>
+  <String Id="WillInstall">[WixBundleName] 을(를) 설치합니다.</String>
+  <String Id="InstallLicenseLinkText">이용약관에 동의하여야 설치가 가능합니다.&lt;a href="#"&gt;이용약관&lt;/a&gt;</String>
+</WixLocalization>
