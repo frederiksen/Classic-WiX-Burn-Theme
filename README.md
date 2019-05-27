@@ -12,7 +12,7 @@ Sample 1: Use Classic WiX Burn Theme in an English only installer.
 Sample 2: Use Classic WiX Burn Theme in an installer localized in English, Danish, French, Spanish, Russian and Korean.
 
 # Localizations
-English (1033), Danish (1030), Frensh (1036), Spanish (3082), Russian (1049), German (1031), Korean (Korean)
+English (1033), Danish (1030), Frensh (1036), Spanish (3082), Russian (1049), German (1031), Korean (1042)
 
 # Help
 Help wanted to add more localizations.
