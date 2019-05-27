@@ -50,6 +50,7 @@
     <Folder Include="Resources\1036" />
     <Folder Include="Resources\3082" />
     <Folder Include="Resources\1049" />
+    <Folder Include="Resources\1042" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1030\ClassicTheme.wxl" />
@@ -57,6 +58,7 @@
     <None Include="Resources\1036\ClassicTheme.wxl" />
     <None Include="Resources\3082\ClassicTheme.wxl" />
     <None Include="Resources\1049\ClassicTheme.wxl" />
+    <None Include="Resources\1042\ClassicTheme.wxl" />
     <EmbeddedResource Include="Resources\ClassicTheme.wxl" />
   </ItemGroup>
   <ItemGroup>
@@ -66,6 +68,8 @@
     <Content Include="Resources\1033\banner.png" />
     <Content Include="Resources\1036\banner.png" />
     <None Include="Resources\1036\ClassicTheme.xml" />
+    <Content Include="Resources\1042\banner.png" />
+    <None Include="Resources\1042\ClassicTheme.xml" />
     <Content Include="Resources\1049\banner.png" />
     <Content Include="Resources\1049\ClassicTheme.xml" />
     <Content Include="Resources\3082\banner.png" />
